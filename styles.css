@@ -1,0 +1,121 @@
+/* TX-02 — Regular */
+@font-face {
+  font-family: "TX-02";
+  src: url("./fonts/TX-02-normal-400-100.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TX-02 — Medium */
+@font-face {
+  font-family: "TX-02";
+  src: url("./fonts/TX-02-normal-500-100.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* TX-02 — Bold */
+@font-face {
+  font-family: "TX-02";
+  src: url("./fonts/TX-02-normal-700-100.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f7f4;
+  font-family: "TX-02", sans-serif;
+}
+
+.navigation {
+  height: 52px;
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 34.19px;
+  width: 363.08px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(38, 37, 30);
+  font-weight: 400;
+}
+
+.nav-links li {
+  height: 34px;
+}
+
+.nav-links li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 34px;
+  padding: 5.6px 15px;
+
+  font-size: 14px;
+  line-height: 21px;
+  color: rgb(38, 37, 30);
+
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sign-in,
+.download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 99999999px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.sign-in {
+  width: 66.58px;
+  height: 27.47px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid oklab(0.263084 -0.00230259 0.0124794 / 0.2);
+}
+
+.download {
+  width: 87.18px;
+  height: 26.96px;
+  padding: 5.6px 10.5px;
+  background-color: rgb(38, 37, 30);
+  color: rgb(247, 247, 244);
+}
+
+.download:hover {
+  background-color: rgb(58, 57, 50);
+}
