@@ -50,27 +50,28 @@ img {
 
 .nav-links {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  list-style: none;
   width: 363.08px;
   height: 34.19px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 24px;
-  color: rgb(38, 37, 30);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-links li a {
-  text-align: center;
-  width: 100%;
   font-size: 14px;
-  line-height: 21px;
-  color: rgb(38, 37, 30);
-  text-decoration: none;
-  cursor: pointer;
-  padding: 5.6px 15px;
   font-weight: 400;
+  line-height: 14px;
+  color: black;
+  text-decoration: none;
+  padding: 5.6px 15px;
+  height: 34.19px;
+  text-align: center;
 }
 
 .nav-links li a:hover {
