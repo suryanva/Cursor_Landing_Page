@@ -223,7 +223,8 @@ h1 {
   border-radius: 4px;
 }
 
-.left-feat h3 {
+.left-feat h3,
+.r-2 h3 {
   display: block;
   color: rgb(237, 236, 236);
   font-family: inherit;
@@ -234,7 +235,8 @@ h1 {
   background-color: rgb(27, 25, 19);
 }
 
-.left-feat p {
+.left-feat,
+.r-2 p {
   display: block;
   color: oklab(0.94 0.001 0.0003 / 0.6);
   font-family: inherit;
@@ -245,10 +247,8 @@ h1 {
   background-color: rgb(27, 25, 19);
 }
 
-.left-feat a {
-  display: inline-flex;
-  align-items: flex-start;
-  justify-content: center;
+.left-feat a,
+.r-2 a {
   width: 151.7px;
   height: 19px;
   background-color: transparent;
@@ -282,8 +282,42 @@ h1 {
   border-radius: 4px;
 }
 
-.right-feat div img {
+.right-feat div img,
+.l-2 img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
+/* Feature Two */
+
+.feature-two {
+  width: 1300px;
+  height: 815px;
+  margin-top: 89.59px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(27, 25, 19);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(237, 236, 236, 0.1);
+  border-radius: 4px;
+}
+
+.l-2 {
+  width: 840px;
+  height: 780px;
+}
+
+.r-2 {
+  width: 382.5px;
+  height: 153.3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+/* Feature Three */
