@@ -210,7 +210,7 @@ h1 {
 /* Feature One */
 .feature-one {
   width: 1300px;
-  height: 815px;
+  height: 711.891px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -271,17 +271,19 @@ h1 {
   background-color: transparent;
 }
 
-.right-feat {
+.right-feat div {
   width: 840px;
-  height: 780px;
+  height: 676.891px;
   margin-right: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
-.right-feat img {
+.right-feat div img {
   width: 100%;
   height: auto;
-  display: block;
+  object-fit: cover;
 }
