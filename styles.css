@@ -220,6 +220,7 @@ h1 {
   background-color: rgb(27, 25, 19);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(237, 236, 236, 0.1);
+  border-radius: 4px;
 }
 
 .left-feat h3 {
