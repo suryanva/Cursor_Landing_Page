@@ -13,8 +13,8 @@ The implementation focuses on closely matching the original website’s **layout
 
 ## 🔗 Live Demo
 
-👉 **Hosted on GitHub Pages:**  
-[Live Website Link](https://suryanva.github.io/Cursor_Landing_Page/)
+👉 **Hosted on Render Pages:**  
+[Live Website Link](https://cursor-landing-page.onrender.com)
 
 👉 **GitHub Repository:**  
 https://github.com/suryanva/Cursor_Landing_Page
@@ -139,7 +139,7 @@ Screenshots of the final output have been included in the repository for referen
 
 ## 🚀 Hosting & Submission
 
-- The project is hosted using **GitHub Pages**
+- The project is hosted using **Render**
 - The repository is **public**
 - Both HTML and CSS files are included
 - No external frameworks or libraries were used
