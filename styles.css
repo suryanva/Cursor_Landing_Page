@@ -33,6 +33,12 @@
   font-family: "TX-02", sans-serif;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 img {
   display: block;
   width: 95.75px;
